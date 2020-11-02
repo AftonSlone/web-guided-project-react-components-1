@@ -12,5 +12,5 @@
 import React from "react";
 
 export default function Playground(props) {
-  return "playground for Web " + props.cohort;
+  return <div className= ></div>
 }
