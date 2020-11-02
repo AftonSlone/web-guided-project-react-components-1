@@ -27,8 +27,8 @@ function App(props) {
       <h1>Welcome to React, Web {props.cohort}</h1>
     </div>
   )
-}
 
+// 
 render(
   <App cohort='37' />,
   document.querySelector('#root')
