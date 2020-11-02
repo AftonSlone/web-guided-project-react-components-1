@@ -28,7 +28,7 @@ function App(props) {
     </div>
   )
 
-// 
+// only appears once per project
 render(
   <App cohort='37' />,
   document.querySelector('#root')
