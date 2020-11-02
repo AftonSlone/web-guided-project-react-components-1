@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import Playground from 
+import Playground from "./components/Playground";
 
 /*
 💥💥💥 Rules when DECLARING a React component 💥💥💥
