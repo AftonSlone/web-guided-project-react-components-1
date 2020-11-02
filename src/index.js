@@ -22,19 +22,21 @@ import { render } from "react-dom";
 */
 
 function App(props) {
-  const { cohort, instructor, happy } = props; // destructure
+  const { cohort, instructor, happy, week } = props; // destructure
   return (
     <div className="container">
       <h1>Welcome to React, Web {cohort}</h1>
       <div>{instructor} welcomes you!</div>
 
       {happy ? <div>Very happy</div> : <div>It is Monday</div>}
+
+      <div>It is week {week}</div>
     </div>
   );
 }
 
 // only appears once per project
 render(
-  <App cohort="37" instructor="Rhiannon" happy={true} />,
+  <App cohort="37" instructor="Rhiannon" happy={true} week={2} />,
   document.querySelector("#root")
 );
