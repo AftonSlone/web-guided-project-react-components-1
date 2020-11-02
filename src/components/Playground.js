@@ -18,7 +18,11 @@ export default function Playground(props) {
   // 1. the state itself and
   // 2. a state changer function
   const [count, setCount] = useState(0); // destructuring
-  const [spinnerOn, setSpinnerOn]
+  const [spinnerOn, setSpinnerOn] = useState(true);
+
+  if (spinnerOn) {
+    
+  }
 
   return (
     <div className="container">
