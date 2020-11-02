@@ -30,4 +30,7 @@ function App(props) {
 }
 
 // only appears once per project
-render(<App cohort="37"  />, document.querySelector("#root"));
+render(
+  <App cohort="37" instructor="Rhiannon" />,
+  document.querySelector("#root")
+);
