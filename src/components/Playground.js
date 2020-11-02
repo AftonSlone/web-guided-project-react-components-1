@@ -19,7 +19,7 @@ export default function Playground(props) {
   // 2. a state changer function
   const [count, setCount] = useState(0); // destructuring
   const [spinnerOn, setSpinnerOn] = useState(false);
-  
+  const [weapon, setWeapon] = useState("scissors");
 
   if (spinnerOn) {
     return (
@@ -37,7 +37,7 @@ export default function Playground(props) {
       <h3>Playground for Web {props.cohort}</h3>
       <div>the count is {count}</div>
 
-      <div>the current weapon is scissors</div>
+      <div>the current weapon is {weapon}</div>
       <button>pick scissors</button>
       <button>pick rock</button>
       <button>pick paper</button>
