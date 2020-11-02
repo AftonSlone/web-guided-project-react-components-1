@@ -1,5 +1,5 @@
-import React from 'react'
-import { render } from 'react-dom'
+import React from "react";
+import { render } from "react-dom";
 
 /*
 💥💥💥 Rules when DECLARING a React component 💥💥💥
@@ -23,13 +23,11 @@ import { render } from 'react-dom'
 
 function App(props) {
   return (
-    <div className='container'>
+    <div className="container">
       <h1>Welcome to React, Web {props.cohort}</h1>
     </div>
-  )
+  );
+}
 
 // only appears once per project
-render(
-  <App cohort='37' />,
-  document.querySelector('#root')
-)
+render(<App cohort="37" />, document.querySelector("#root"));
