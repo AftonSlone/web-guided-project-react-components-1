@@ -22,11 +22,12 @@ import { render } from "react-dom";
 */
 
 function App(props) {
+  const 
   return (
     <div className="container">
       {/* <h1>Welcome to React, Web {props.cohort}</h1> */}
       <h1>Welcome to React, Web {props.cohort}</h1>
-  <div>{instructor}</div>
+      <div>{props.instructor} welcomes you!</div>
     </div>
   );
 }
