@@ -35,6 +35,6 @@ function App(props) {
 
 // only appears once per project
 render(
-  <App cohort="37" instructor="Rhiannon" happy={false} />,
+  <App cohort="37" instructor="Rhiannon" happy={true} />,
   document.querySelector("#root")
 );
