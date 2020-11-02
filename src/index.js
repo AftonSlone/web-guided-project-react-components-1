@@ -33,7 +33,7 @@ function App(props) {
 
       <div>It is week {week}</div>
 
-      <Playground  />
+      <Playground cohort={cohort} />
     </div>
   );
 }
