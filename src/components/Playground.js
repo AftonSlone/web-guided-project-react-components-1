@@ -19,12 +19,14 @@ export default function Playground(props) {
   // 2. a state changer function
   const [count, setCount] = useState(0); // destructuring
 
-  const theArray = useState(0);
-  const count = 
-
+  
   return (
     <div className="container">
       <h3>Playground for Web {props.cohort}</h3>
     </div>
   );
 }
+
+// const theArray = useState(0);
+// const count = theArray[0];
+// const setCount = theArray[1];
