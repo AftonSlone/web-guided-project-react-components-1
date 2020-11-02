@@ -22,14 +22,13 @@ import { render } from "react-dom";
 */
 
 function App(props) {
-  const { cohort, instructor } = props; // destructure
+  const { cohort, instructor, happy } = props; // destructure
   return (
     <div className="container">
       <h1>Welcome to React, Web {cohort}</h1>
       <div>{instructor} welcomes you!</div>
 
-{happy ? <div></div> : <div><}
-
+      {happy ? <div>Very happy</div> : <div>It is Monday</div>}
     </div>
   );
 }
