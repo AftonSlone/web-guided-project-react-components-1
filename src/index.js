@@ -24,8 +24,9 @@ import { render } from "react-dom";
 function App(props) {
   return (
     <div className="container">
+      {/* <h1>Welcome to React, Web {props.cohort}</h1> */}
       <h1>Welcome to React, Web {props.cohort}</h1>
-      <h1>Welcome to React, Web {props.cohort} I am {props.instructor}</h1>
+  <div>{instructor}</div>
     </div>
   );
 }
