@@ -17,8 +17,10 @@ export default function Playground(props) {
   // it returns an array with two things:
   // 1. the state itself and
   // 2. a state changer function
-  const [count, setCount] = useState(0); // destructuring 
+  const [count, setCount] = useState(0); // destructuring
 
+  const theArray = useState(0);
+  const count = 
 
   return (
     <div className="container">
