@@ -32,6 +32,8 @@ function App(props) {
       {happy ? <div>Very happy</div> : <div>It is Monday</div>}
 
       <div>It is week {week}</div>
+
+      <Playground  />
     </div>
   );
 }
